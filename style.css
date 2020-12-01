@@ -1,0 +1,70 @@
+body{
+    height: 420mm;
+    width: 594mm;
+    font-size: 8pt;
+    padding: 0px 25px;
+    border: solid;
+    position: relative;
+    background-color: #f1b71514;
+    font-family: Roboto;
+}
+header{
+    display: flex;
+}
+header>div{
+    flex: 0 0 50%;
+    align-self: flex-end;
+}
+header img{
+    height: 60px;
+    
+}
+pre{
+    font-size: 6pt;
+    padding: 2pt;
+    margin: 0;
+    overflow: hidden;
+}
+.block{
+    /* width: 25%; */
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 390mm;
+    align-items: center;
+}
+
+.prop{
+    width: 15%;
+    margin-top: 5px;
+   
+}
+.name{
+    float: left;
+}
+.exemple{
+    clear: both;
+}
+code {
+    padding: 1px 2px;
+    font-size: 100%;
+    line-height: 5pt;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.back{
+    position: absolute;
+    opacity: 0.15;
+    bottom: 0;
+    right: 35px;
+}
+.back img{
+    width: 650px;
+}
+h3{
+    margin-top: 10px;
+}
