@@ -1,70 +1,90 @@
 body{
-    height: 420mm;
-    width: 594mm;
-    font-size: 8pt;
-    padding: 0px 25px;
-    border: solid;
+    height: 426mm;
+    width: 606mm;
+    font-size: 10pt;
+    border: double 7px !important;
     position: relative;
-    background-color: #f1b71514;
+    background-color: #fbf48a15 !important;
     font-family: Roboto;
+    margin: 0 auto !important;
 }
 header{
     display: flex;
+    background-color: #58a0ff30 !important;
 }
 header>div{
     flex: 0 0 50%;
-    align-self: flex-end;
+    align-self: center;
+    margin-left: 35px;
 }
 header img{
     height: 60px;
     
 }
 pre{
-    font-size: 6pt;
-    padding: 2pt;
+    font-size:9pt;
+    padding: 3pt;
     margin: 0;
     overflow: hidden;
 }
 .block{
-    /* width: 25%; */
+    padding: 10px 15px;
 }
 .table{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 390mm;
+    height: 385mm;
     align-items: center;
 }
 
 .prop{
-    width: 15%;
-    margin-top: 5px;
+    width: 24%;
+    margin-top: 6px;
    
 }
 .name{
     float: left;
 }
 .exemple{
+    display: flex;
     clear: both;
 }
 code {
     padding: 1px 2px;
-    font-size: 100%;
+    font-size: 120%;
     line-height: 5pt;
+    
 }
 h1{
     font-size: 50px;
     font-weight: bold;
+    text-shadow: 5px 5px 7px #cccccc !important;
+}
+.back, .cheat_sheet{
+    position: absolute;
 }
 .back{
-    position: absolute;
-    opacity: 0.15;
+    opacity: 0.075;
     bottom: 0;
     right: 35px;
 }
 .back img{
     width: 650px;
 }
+
+.cheat_sheet{
+    transform: rotate(-25deg);
+    top: 400px;
+    left: 300px;
+    opacity: 0.075;
+    font-size: 280pt;
+    color: #3193ff !important;
+}
 h3{
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-left: 84px;
 }
